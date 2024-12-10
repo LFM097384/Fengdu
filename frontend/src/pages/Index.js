@@ -47,7 +47,7 @@ function Index() {
           风渡
         </Typography>
         <Typography variant="h4" sx={{ color: '#fff', mb: 6, textAlign: 'center' }}>
-          风渡云起，献给时代的留学生论坛
+          风渡云起，献给时代的海外学生论坛
         </Typography>
         <Box sx={{ mb: 4 }}>
           <Button 

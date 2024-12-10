@@ -6,6 +6,9 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import HomePage from './pages/HomePage';
 import Index from './pages/Index';
+import Profile from './pages/Profile';
+import ForumPage from './pages/ForumPage';
+import PostDetail from './pages/PostDetail';
 
 const theme = createTheme({
   palette: {
@@ -99,6 +102,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<HomePage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/forum" element={<ForumPage />} />
+        <Route path="/post/:id" element={<PostDetail />} />
       </Routes>
     </ThemeProvider>
   );
